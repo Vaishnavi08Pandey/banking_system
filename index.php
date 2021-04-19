@@ -125,7 +125,7 @@ if (!$conn) {
                         </div>
                     </div>
                 </div>
-
+            </div>
         </section>
         <footer style="background-color: black; width:100%">
             <center>
