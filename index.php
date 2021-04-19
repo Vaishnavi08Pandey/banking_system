@@ -84,7 +84,7 @@ if (!$conn) {
                     <p style="font-family:stylish; font-size: 18px;">A local bank that serve the world. We build relationship beyond Banking. </p>
                 </div>
 
-                <div class="row">
+                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="services-item">
                             <a href="index.php?info=view" style="color:black;">
@@ -92,7 +92,7 @@ if (!$conn) {
                                     <i class="fa fa-list"></i>
                                 </div>
                                 <h3>Customer list</h3>
-                                <p>You can view the list of all customers with their email id and available balance.</p>
+                                <p>You can view the list of all customers with their email id and available balance here.</p>
                             </a>
                         </div>
 
@@ -107,7 +107,7 @@ if (!$conn) {
                                     <i class="fa fa-rupee"></i>
                                 </div>
                                 <h3>Transfer Money</h3>
-                                <p>You can transfer money from here.We ensure that transaction is safe and secure.</p>
+                                <p>You can make transactions from here. We ensure that transaction is safe and secure.</p>
                             </a>
                         </div>
 
@@ -120,7 +120,7 @@ if (!$conn) {
                                     <i class="fa fa-history"></i>
                                 </div>
                                 <h3>Transaction History</h3>
-                                <p>We keep record of all the transactions that took place.You can view them here.</p>
+                                <p>We keep record of all the transactions that took place. You can view transaction history here.</p>
                             </a>
                         </div>
                     </div>
