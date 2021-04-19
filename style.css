@@ -1,0 +1,147 @@
+
+.navbar{
+    width: 100%;
+    align-items: center;
+    background-color:whitesmoke;
+}
+
+.services-area {
+    background-color: #f9fafb;
+}
+.services-area.bg-color {
+    background-color: #fff;
+}
+.services-area.bg-color .services-item {
+    background-color: #f9fafb;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+.section-title span {
+    color: #e73c3e;
+}
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+.section-title p {
+    max-width: 570px;
+    margin: auto;
+}
+
+.d-table {
+    width: 100%;
+    height: 100%}
+.d-table-cell {
+    vertical-align: middle;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+        background: url("https://usatechsolutions.com/wp-content/uploads/2017/04/dev-1.jpg");
+      /*background: url(blur10.jpg);*/
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+img {
+    width: 100%;
+}
+.page-title-area {
+    position: relative;
+    z-index: 1;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-attachment: fixed;
+}
+
+.photo-bg{
+    background: url(img4.jpg);
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 450px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*opacity: .2;
+    filter: blur(1px);
+  -webkit-filter: blur(1px);*/
+}
+.services-area.bg-color .services-item {
+    background-color: #f9fafb;
+}
+.services-item {
+    
+    text-align: center;
+    background-color: #D8EDEC;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    -webkit-transition: .5s;
+    transition: .5s;
+    margin-bottom: 30px;
+}
+.services-item::before {
+    position: absolute;
+    content: "";
+    height: 65%;
+    width: 90%;
+    background-color: #fdebeb;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -150px;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.services-item .icon {
+    margin-bottom: 20px;
+    position: relative;
+}
+.services-item .icon i {
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, .09);
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, .09);
+    text-align: center;
+    font-size: 50px;
+    color: #e73c3e;
+    border-radius: 50px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.services-item h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.services-item .learn-btn {
+    color: #e73c3e;
+    display: inline-block;
+    font-weight: 500;
+    font-family: rubik, sans-serif;
+}
+.services-item:hover {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+.services-item:hover::before {
+    background-color: #e73c3e;
+}
