@@ -41,9 +41,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-        background: url("https://usatechsolutions.com/wp-content/uploads/2017/04/dev-1.jpg");
-      /*background: url(blur10.jpg);*/
-      background-position: center;
+       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
    }
